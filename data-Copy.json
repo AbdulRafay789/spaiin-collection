@@ -6198,11 +6198,11 @@
                 "term_order": "2"
             }],
             "fields": {
-                "hero_image": "mg/upload/03-24.jpg",
+                "hero_image": "https://abdulrafay789.github.io/spaiin-collection/img/upload/03-24.jpg",
                 "location": "",
                 "intro": "The catwalk is where fashion comes alive. Be a model for a day and lose yourself in the backstage world of nerves and frenetic preparations before stepping out into the spotlights and onto the catwalk.  ",
                 "intro_mobile": "",
-                "image_above": "mg/upload/03-26.jpg",
+                "image_above": "https://abdulrafay789.github.io/spaiin-collection/img/upload/03-26.jpg",
                 "image_above_position": "left",
                 "flexible": [{
                         "acf_fc_layout": "wysiwyg",
@@ -6211,13 +6211,13 @@
                     {
                         "acf_fc_layout": "images",
                         "mosaic": [{
-                                "image": "mg/upload/01-99.jpg"
+                                "image": "https://abdulrafay789.github.io/spaiin-collection/img/upload/01-99.jpg"
                             },
                             {
-                                "image": "mg/upload/01-98.jpg"
+                                "image": "https://abdulrafay789.github.io/spaiin-collection/img/upload/01-98.jpg"
                             },
                             {
-                                "image": "mg/upload/02-66.jpg"
+                                "image": "https://abdulrafay789.github.io/spaiin-collection/img/upload/02-66.jpg"
                             }
                         ],
                         "position": "position1"
@@ -6285,7 +6285,7 @@
         "1188": {
             "id": 1188,
             "title": "Private Hammam in Granada",
-            "image": "mg/upload/01-101.jpg",
+            "image": "https://abdulrafay789.github.io/spaiin-collection/img/upload/01-101.jpg",
             "slug": "private-hammam-experience-in-granada",
             "date": "October 27, 2020",
             "excerpt": "",
