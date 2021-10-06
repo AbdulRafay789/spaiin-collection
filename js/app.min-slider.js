@@ -718,7 +718,7 @@
             __p = __p.replace('class="home__hero"', 'class="home__hero" style="display:none;"');
             __p = __p.replace('class="home__curators"', 'class="home__curators" style="display:none;"');
             __p = __p.replace('class="home__why"', 'class="home__why" style="display:none;"');
-            __p = __p.replace('class="home__footer"', 'class="home__footer" style="display:none;"');
+            __p = __p.replace('class="home__footer"', 'class="home__footer" style="display:none;"')
             console.log(__p);
             return __p
         }
