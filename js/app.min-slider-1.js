@@ -716,7 +716,7 @@
             }
             __p = __p.replace('class="home__header"', 'class="home__header" style="display:none;"');
             // __p = __p.replace('class="home__hero"', 'class="home__hero" style="display:none;"');
-            __p = __p.replace('class="home__curators"', 'class="home__curators" style="background: black;"');
+            // __p = __p.replace('class="home__curators"', 'class="home__curators" style="background: black;"');
             __p = __p.replace('class="home__why"', 'class="home__why" style="display:none;"');
             __p = __p.replace('class="home__footer"', 'class="home__footer" style="display:none;"');
             __p = __p.replace('class="home__discover"', 'class="home__discover" style="display:none;"');
