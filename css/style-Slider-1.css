@@ -3377,6 +3377,7 @@ body.video .header__menu .list li a {
 
 .desktop #content .home__curators .container {
     background-color: #060707 !important;
+    margin-top: -3.66vw;
     /* background-color: transparent !important */
 }
 
