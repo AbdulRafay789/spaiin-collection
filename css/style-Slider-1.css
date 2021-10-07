@@ -3366,8 +3366,7 @@ body.video .header__menu .list li a {
 .desktop #content .home__curators .sensor {
     position: relative;
     width: 6.5vw;
-    height: 3.3vw;
-    /* height: 6.5vw; */
+    height: 6.5vw;
     border-radius: 6.5vw;
     line-height: 6.5vw;
     -webkit-transform: translateY(-6.5vw);
@@ -3378,6 +3377,7 @@ body.video .header__menu .list li a {
 
 .desktop #content .home__curators .container {
     background-color: #060707 !important;
+    margin-top: -6.3%;
     /* background-color: transparent !important */
 }
 
