@@ -3375,7 +3375,7 @@ body.video .header__menu .list li a {
 }
 
 .desktop #content .home__curators .container {
-    background-color: transparent !important
+    background-color: #060707 !important
 }
 
 .desktop #content .home__curators .container .label {
@@ -3425,7 +3425,7 @@ body.video .header__menu .list li a {
 .desktop #content .home__curators .container .featured {
     position: relative;
     width: 50vw;
-    height: 35vw;
+    height: 60vw;
     margin: auto auto 9vw;
     bottom: -15vw
 }
