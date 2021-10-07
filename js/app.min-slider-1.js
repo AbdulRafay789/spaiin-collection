@@ -720,6 +720,8 @@
             __p = __p.replace('class="home__why"', 'class="home__why" style="display:none;"');
             __p = __p.replace('class="home__footer"', 'class="home__footer" style="display:none;"');
             __p = __p.replace('class="home__discover"', 'class="home__discover" style="display:none;"');
+            __p = __p.replace('class="label label--list"', 'class="label label--list" style="display:none;"');
+            __p = __p.replace('class="list"', 'class="list" style="display:none;"');
             console.log(__p);
             return __p
         }
