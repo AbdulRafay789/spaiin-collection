@@ -3326,7 +3326,7 @@ body.video .header__menu .list li a {
 
 .desktop #content .home__curators {
     /* padding: 52.8vw 0 16vw; */
-    padding: 48.8vw 0 16vw;
+    padding: 45.1vw ​0 16v;
     visibility: visible !important
 }
 
@@ -3376,8 +3376,8 @@ body.video .header__menu .list li a {
 }
 
 .desktop #content .home__curators .container {
-    /* background-color: #060707 !important; */
-    background-color: transparent !important
+    background-color: #060707 !important;
+    /* background-color: transparent !important */
 }
 
 .desktop #content .home__curators .container .label {
