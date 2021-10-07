@@ -2474,176 +2474,176 @@
             return __p
         }
     },
-    function(module, exports) {
-        module.exports = function(obj) {
-            obj || (obj = {});
-            var __t,
-                __p = "",
-                __j = Array.prototype.join;
+    // function(module, exports) {
+    //     module.exports = function(obj) {
+    //         obj || (obj = {});
+    //         var __t,
+    //             __p = "",
+    //             __j = Array.prototype.join;
 
-            function print() {
-                __p += __j.call(arguments, "")
-            }
-            with(obj) {
-                __p += '<div id="menu" class="selected">\n    <div class="menu__inner">\n        ';
-                var menuVideo = options.menu_video;
-                __p += "\n        ";
-                for (var i = 0; i < menuVideo.length; i++)
-                    __p += '\n            <div class="video video--large video--large-' + (
-                        null == (__t = [i]) ?
-                        "" :
-                        __t
-                    ) + '">\n                <div class="video__inner">\n                    <video' +
-                    ' autoplay preload="none" muted="muted" playsinline>\n                        <' +
-                    'source src="' + (
-                        null == (__t = menuVideo[i].video_large_mp4) ?
-                        "" :
-                        __t
-                    ) + '" type="video/mp4"/>\n                        <source src="' + (
-                        null == (__t = menuVideo[i].video_large_webm) ?
-                        "" :
-                        __t
-                    ) + '" type="video/webm"/>\n                        <source src="' + (
-                        null == (__t = menuVideo[i].video_large_ogg) ?
-                        "" :
-                        __t
-                    ) + '" type="video/ogg"/>\n                    </video>\n                </div>' +
-                    '\n            </div>\n            <div class="video video--small video--small-' + (
-                        null == (__t = [i]) ?
-                        "" :
-                        __t
-                    ) + '">\n                <div class="video__inner">\n                    <video' +
-                    ' autoplay preload="none" muted="muted" playsinline>\n                        <' +
-                    'source src="' + (
-                        null == (__t = menuVideo[i].video_small_mp4) ?
-                        "" :
-                        __t
-                    ) + '" type="video/mp4"/>\n                        <source src="' + (
-                        null == (__t = menuVideo[i].video_small_webm) ?
-                        "" :
-                        __t
-                    ) + '" type="video/webm"/>\n                        <source src="' + (
-                        null == (__t = menuVideo[i].video_small_ogg) ?
-                        "" :
-                        __t
-                    ) + '" type="video/ogg"/>\n                    </video>\n                </div>' +
-                    '\n            </div>\n        ';
-                __p += '\n    </div>\n    <nav class="nav">\n        ',
-                    this.router.isDesktop || (
-                        __p += '\n            <a href="/" class="logo" data-router-link></a>\n        '
-                    ),
-                    __p += '\n        <ul class="list">\n            ';
-                var menu_mobile = options.menu_mobile;
-                __p += "\n            ";
-                for (var i = 0; i < menu_mobile.length; i++)
-                    __p += '\n                <li>\n                    <a href="' + (
-                        null == (__t = menu_mobile[i].mobile_link) ?
-                        "" :
-                        __t
-                    ) + '" class="' + (
-                        null == (__t = menu_mobile[i].mobile_class) ?
-                        "" :
-                        __t
-                    ) + '" data-router-link data-index="' + (
-                        null == (__t = i) ?
-                        "" :
-                        __t
-                    ) + '">' + (
-                        null == (__t = menu_mobile[i].mobile_text) ?
-                        "" :
-                        __t
-                    ) + "</a>\n                </li>\n            ";
-                __p += '\n        </ul>\n        <ul class="social">\n            ';
-                var social = options.social;
-                __p += "\n            ";
-                for (var i = 0; i < social.length; i++)
-                    __p += '\n                <li><a href="' + (
-                        null == (__t = social[i].social_link) ?
-                        "" :
-                        __t
-                    ) + '" target="_blank">' + (
-                        null == (__t = social[i].social_text) ?
-                        "" :
-                        __t
-                    ) + '<span class="underline"></span></a></li>\n            ';
-                __p += "\n        </ul>\n    </nav>\n    ",
-                    this.router.isDesktop || (__p += '\n        <div class="closer"></div>\n    '),
-                    __p += "\n</div>\n\n",
-                    this.router.isDesktop && (
-                        __p += '\n    <div class="opener">\n        <div class="opener__circle">\n            ' +
-                        '<svg version="1.1" viewBox="0 0 400 400">\n                <circle class="back' +
-                        '" cx="200" cy="200" r="190"></circle>\n                <circle class="front" c' +
-                        'x="200" cy="200" r="190"></circle>\n            </svg>\n        </div>\n      ' +
-                        '  <div class="opener__icon">\n            <div class="opener__icon--top"></div' +
-                        '>\n            <div class="opener__icon--bottom"></div>\n        </div>\n    <' +
-                        '/div>\n'
-                    ),
-                    __p += "\n\n",
-                    this.router.isDesktop || (
-                        __p += '\n    <div id="menumobile" class="menumobile">\n        <div class="menumobile' +
-                        '__logo">\n            <a href="/" data-router-link></a>\n        </div>\n     ' +
-                        '   <div class="menumobile__opener">\n            <div class="icon">\n         ' +
-                        '       <div class="icon--top"></div>\n                <div class="icon--bottom' +
-                        '"></div>\n            </div>\n        </div>\n    </div>\n'
-                    ),
-                    __p += "\n"
-            }
-            return __p
-        }
-    },
-    function(module, exports) {
-        module.exports = function(obj) {
-            obj || (obj = {});
-            var __t,
-                __p = "",
-                __j = Array.prototype.join;
+    //         function print() {
+    //             __p += __j.call(arguments, "")
+    //         }
+    //         with(obj) {
+    //             __p += '<div id="menu" class="selected">\n    <div class="menu__inner">\n        ';
+    //             var menuVideo = options.menu_video;
+    //             __p += "\n        ";
+    //             for (var i = 0; i < menuVideo.length; i++)
+    //                 __p += '\n            <div class="video video--large video--large-' + (
+    //                     null == (__t = [i]) ?
+    //                     "" :
+    //                     __t
+    //                 ) + '">\n                <div class="video__inner">\n                    <video' +
+    //                 ' autoplay preload="none" muted="muted" playsinline>\n                        <' +
+    //                 'source src="' + (
+    //                     null == (__t = menuVideo[i].video_large_mp4) ?
+    //                     "" :
+    //                     __t
+    //                 ) + '" type="video/mp4"/>\n                        <source src="' + (
+    //                     null == (__t = menuVideo[i].video_large_webm) ?
+    //                     "" :
+    //                     __t
+    //                 ) + '" type="video/webm"/>\n                        <source src="' + (
+    //                     null == (__t = menuVideo[i].video_large_ogg) ?
+    //                     "" :
+    //                     __t
+    //                 ) + '" type="video/ogg"/>\n                    </video>\n                </div>' +
+    //                 '\n            </div>\n            <div class="video video--small video--small-' + (
+    //                     null == (__t = [i]) ?
+    //                     "" :
+    //                     __t
+    //                 ) + '">\n                <div class="video__inner">\n                    <video' +
+    //                 ' autoplay preload="none" muted="muted" playsinline>\n                        <' +
+    //                 'source src="' + (
+    //                     null == (__t = menuVideo[i].video_small_mp4) ?
+    //                     "" :
+    //                     __t
+    //                 ) + '" type="video/mp4"/>\n                        <source src="' + (
+    //                     null == (__t = menuVideo[i].video_small_webm) ?
+    //                     "" :
+    //                     __t
+    //                 ) + '" type="video/webm"/>\n                        <source src="' + (
+    //                     null == (__t = menuVideo[i].video_small_ogg) ?
+    //                     "" :
+    //                     __t
+    //                 ) + '" type="video/ogg"/>\n                    </video>\n                </div>' +
+    //                 '\n            </div>\n        ';
+    //             __p += '\n    </div>\n    <nav class="nav">\n        ',
+    //                 this.router.isDesktop || (
+    //                     __p += '\n            <a href="/" class="logo" data-router-link></a>\n        '
+    //                 ),
+    //                 __p += '\n        <ul class="list">\n            ';
+    //             var menu_mobile = options.menu_mobile;
+    //             __p += "\n            ";
+    //             for (var i = 0; i < menu_mobile.length; i++)
+    //                 __p += '\n                <li>\n                    <a href="' + (
+    //                     null == (__t = menu_mobile[i].mobile_link) ?
+    //                     "" :
+    //                     __t
+    //                 ) + '" class="' + (
+    //                     null == (__t = menu_mobile[i].mobile_class) ?
+    //                     "" :
+    //                     __t
+    //                 ) + '" data-router-link data-index="' + (
+    //                     null == (__t = i) ?
+    //                     "" :
+    //                     __t
+    //                 ) + '">' + (
+    //                     null == (__t = menu_mobile[i].mobile_text) ?
+    //                     "" :
+    //                     __t
+    //                 ) + "</a>\n                </li>\n            ";
+    //             __p += '\n        </ul>\n        <ul class="social">\n            ';
+    //             var social = options.social;
+    //             __p += "\n            ";
+    //             for (var i = 0; i < social.length; i++)
+    //                 __p += '\n                <li><a href="' + (
+    //                     null == (__t = social[i].social_link) ?
+    //                     "" :
+    //                     __t
+    //                 ) + '" target="_blank">' + (
+    //                     null == (__t = social[i].social_text) ?
+    //                     "" :
+    //                     __t
+    //                 ) + '<span class="underline"></span></a></li>\n            ';
+    //             __p += "\n        </ul>\n    </nav>\n    ",
+    //                 this.router.isDesktop || (__p += '\n        <div class="closer"></div>\n    '),
+    //                 __p += "\n</div>\n\n",
+    //                 this.router.isDesktop && (
+    //                     __p += '\n    <div class="opener">\n        <div class="opener__circle">\n            ' +
+    //                     '<svg version="1.1" viewBox="0 0 400 400">\n                <circle class="back' +
+    //                     '" cx="200" cy="200" r="190"></circle>\n                <circle class="front" c' +
+    //                     'x="200" cy="200" r="190"></circle>\n            </svg>\n        </div>\n      ' +
+    //                     '  <div class="opener__icon">\n            <div class="opener__icon--top"></div' +
+    //                     '>\n            <div class="opener__icon--bottom"></div>\n        </div>\n    <' +
+    //                     '/div>\n'
+    //                 ),
+    //                 __p += "\n\n",
+    //                 this.router.isDesktop || (
+    //                     __p += '\n    <div id="menumobile" class="menumobile">\n        <div class="menumobile' +
+    //                     '__logo">\n            <a href="/" data-router-link></a>\n        </div>\n     ' +
+    //                     '   <div class="menumobile__opener">\n            <div class="icon">\n         ' +
+    //                     '       <div class="icon--top"></div>\n                <div class="icon--bottom' +
+    //                     '"></div>\n            </div>\n        </div>\n    </div>\n'
+    //                 ),
+    //                 __p += "\n"
+    //         }
+    //         return __p
+    //     }
+    // },
+    // function(module, exports) {
+    //     module.exports = function(obj) {
+    //         obj || (obj = {});
+    //         var __t,
+    //             __p = "",
+    //             __j = Array.prototype.join;
 
-            function print() {
-                __p += __j.call(arguments, "")
-            }
-            with(obj) {
-                if (
-                    __p += '<div id="header" class="header ',
-                    "home" == section && (__p += "home"),
-                    __p += " " + (
-                        null == (__t = color) ?
-                        "" :
-                        __t
-                    ) + '">\n    ',
-                    this.router.isDesktop
-                ) {
-                    __p += '\n    <div class="header__menu">\n        <nav class="menu">\n            <ul ' +
-                        'class="list">\n                ';
-                    var menu = options.menu;
-                    __p += "\n                ";
-                    for (var i = 0; i < menu.length; i++)
-                        __p += '\n                    <li>\n                        <a href="' + (
-                            null == (__t = menu[i].link) ?
-                            "" :
-                            __t
-                        ) + '" class="' + (
-                            null == (__t = menu[i].class) ?
-                            "" :
-                            __t
-                        ) + '" data-router-link>' + (
-                            null == (__t = menu[i].text) ?
-                            "" :
-                            __t
-                        ) + '<span class="underline"></span></a>\n                    </li>\n          ' +
-                        '      ';
-                    __p += '\n            </ul>\n        </nav>\n    </div>\n    <div class="header__logo"' +
-                        '>\n        <a href="/" class="logo" data-router-link></a>\n    </div>\n    '
-                } else
-                    __p += '\n        <div class="header__logo">\n            <a href="/" class="logo" dat' +
-                    'a-router-link></a>\n        </div>\n        <div class="header__opener">\n    ' +
-                    '        <div class="header__opener__icon">\n                <div class="header' +
-                    '__opener__icon--top"></div>\n                <div class="header__opener__icon-' +
-                    '-bottom"></div>\n            </div>\n        </div>\n    ';
-                __p += "\n</div>\n"
-            }
-            return __p
-        }
-    }, ,
+    //         function print() {
+    //             __p += __j.call(arguments, "")
+    //         }
+    //         with(obj) {
+    //             if (
+    //                 __p += '<div id="header" class="header ',
+    //                 "home" == section && (__p += "home"),
+    //                 __p += " " + (
+    //                     null == (__t = color) ?
+    //                     "" :
+    //                     __t
+    //                 ) + '">\n    ',
+    //                 this.router.isDesktop
+    //             ) {
+    //                 __p += '\n    <div class="header__menu">\n        <nav class="menu">\n            <ul ' +
+    //                     'class="list">\n                ';
+    //                 var menu = options.menu;
+    //                 __p += "\n                ";
+    //                 for (var i = 0; i < menu.length; i++)
+    //                     __p += '\n                    <li>\n                        <a href="' + (
+    //                         null == (__t = menu[i].link) ?
+    //                         "" :
+    //                         __t
+    //                     ) + '" class="' + (
+    //                         null == (__t = menu[i].class) ?
+    //                         "" :
+    //                         __t
+    //                     ) + '" data-router-link>' + (
+    //                         null == (__t = menu[i].text) ?
+    //                         "" :
+    //                         __t
+    //                     ) + '<span class="underline"></span></a>\n                    </li>\n          ' +
+    //                     '      ';
+    //                 __p += '\n            </ul>\n        </nav>\n    </div>\n    <div class="header__logo"' +
+    //                     '>\n        <a href="/" class="logo" data-router-link></a>\n    </div>\n    '
+    //             } else
+    //                 __p += '\n        <div class="header__logo">\n            <a href="/" class="logo" dat' +
+    //                 'a-router-link></a>\n        </div>\n        <div class="header__opener">\n    ' +
+    //                 '        <div class="header__opener__icon">\n                <div class="header' +
+    //                 '__opener__icon--top"></div>\n                <div class="header__opener__icon-' +
+    //                 '-bottom"></div>\n            </div>\n        </div>\n    ';
+    //             __p += "\n</div>\n"
+    //         }
+    //         return __p
+    //     }
+    // }, ,
     function(module, exports, __webpack_require__) {
         module.exports = function(obj) {
             obj || (obj = {});
