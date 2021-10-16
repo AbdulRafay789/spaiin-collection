@@ -3429,6 +3429,14 @@ body.video .header__menu .list li a {
     bottom: -15vw
 }
 
+@media only screen and (max-width:12000px) and (min-width:320px) {
+    .desktop #content .home__curators .container .featured .video {
+        position: relative;
+        width: 100vw;
+        height: 30vw
+    }
+}
+
 .desktop #content .home__curators .container .featured .video {
     position: relative;
     width: 50vw;
@@ -3525,6 +3533,12 @@ body.video .header__menu .list li a {
     -webkit-box-pack: justify;
     justify-content: space-between;
     padding-bottom: 15vw
+}
+
+@media only screen and (max-width:12000px) and (min-width:320px) {
+    .desktop #content .home__why .features {
+        display: grid;
+    }
 }
 
 .desktop #content .home__why .features__item {
@@ -4053,7 +4067,8 @@ body.video .header__menu .list li a {
 
 @media (max-width:600px) and (orientation:portrait) {
     .mobile #content .home__why .title {
-        font-size: 5pc
+        font-size: 5pc;
+        z-index: 1;
     }
 }
 
@@ -4144,7 +4159,7 @@ body.video .header__menu .list li a {
 @media (max-width:600px) and (orientation:portrait) {
     .mobile #content .home__why .headline {
         height: 34vw;
-        bottom: 181vw
+        bottom: 0vw
     }
 }
 
