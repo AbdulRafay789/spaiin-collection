@@ -82,19 +82,19 @@
         ],
         "social": [{
                 "social_text": "Instagram",
-                "social_link": "https://www.instagram.com/spain.collection/"
+                "social_link": ""
             },
             {
                 "social_text": "Facebook",
-                "social_link": "https://www.facebook.com/SpainCollection-110359317458748"
+                "social_link": ""
             },
             {
                 "social_text": "Youtube",
-                "social_link": "https://youtube.com/channel/UCn69c244c_w79zr_UJzN5RQ"
+                "social_link": ""
             },
             {
                 "social_text": "Linkedin",
-                "social_link": "https://www.linkedin.com/company/spaincollection/"
+                "social_link": ""
             }
         ],
         "footer": {
@@ -108,28 +108,28 @@
             "social": [{
                     "link": {
                         "title": "Instagram",
-                        "url": "https://www.instagram.com/spain.collection/?hl=es",
+                        "url": "",
                         "target": "_blank"
                     }
                 },
                 {
                     "link": {
                         "title": "Facebook",
-                        "url": "https://www.facebook.com/SpainCollection-110359317458748/",
+                        "url": "",
                         "target": "_blank"
                     }
                 },
                 {
                     "link": {
                         "title": "Twitter",
-                        "url": "https://twitter.com/SpainCollection",
+                        "url": "",
                         "target": "_blank"
                     }
                 },
                 {
                     "link": {
                         "title": "Pinterest",
-                        "url": "https://www.pinterest.es/spaincollection/_created/",
+                        "url": "",
                         "target": "_blank"
                     }
                 }
@@ -888,7 +888,7 @@
                         "list_position": "Collection Curator - Spain and Portugal",
                         "list_intro": "<p><strong>Born and raised in a little town in Extremadura, western Spain, I come from a very large family.\u00a0 Dozens of first cousins and tons of friends meant that I spent most of my childhood playing out in the street.\u00a0 Without doubt this instilled in me a deep love for the outdoors and the countryside.</strong></p>\n",
                         "list_text": "<p>After one year at law school I went on to study tourism at the Official School of Tourism in Madrid. Passionate about Spain, its history and culture, I started showing this exciting country first to my family and friends, and then professionally to others as I opened my first travel agency in the university city of Salamanca.</p>\n<p>&nbsp;</p>\n<p>I lived in the United States for several years before moving back home to Spain to work as a guide specializing in religious heritage. Having escorted hundreds of travelers from overseas around the Iberian Peninsula, I call El Camino de Santiago my \u201cpath of life\u201d as it is, by far, my favorite itinerary. I have done the classic French Camino, the Primitive Route and the less traveled Portuguese Camino covering several thousand miles by foot overall! I realized I had become part of El Camino, when a friend working at a local inn, kept saving the last piece of cake for me and started calling it \u201cthe JC doughnut\u201d \u263a</p>\n<p>&nbsp;</p>\n<p>Passionate about life, food and motorcycles I have indulged myself at some of the world\u2019s most famous Michelin-star restaurants in Spain and Portugal, including the iconic <em>El Bulli</em>. If you don\u2019t find me reaching the <em>end of the earth</em> on foot in Finisterre, I may very well be getting lost in Ushuaia on a BMW motorbike\u2026</p>\n",
-                        "list_linkedin": "https://www.linkedin.com/in/juancarlostejeda/",
+                        "list_linkedin": "",
                         "list_above": "https://abdulrafay789.github.io/spaiin-collection/img/upload/02-99.jpg",
                         "list_above_class": "left",
                         "list_gallery": [{
@@ -905,7 +905,7 @@
                         "list_position": "Collection Curator - Spain and Portugal",
                         "list_intro": "<p><strong>I was born in Bilbao and have lived here most of my life. Most of my professional career has been dedicated to the world of corporate events and the incentive travel sector, at Stop, the mother company of Spain Collection.</strong></p>\n",
                         "list_text": "<p>Euskadi is a unique destination, because despite being small, its cities exude class and very distinct style. Each of its defining characteristics are striking especially with regards to gastronomy, but also with regards to its history, its language, its traditions and its way of understanding life and work.</p>\n<p>&nbsp;</p>\n<p>I lived in the Canaries for 7 years.\u00a0 I know the islands really well, and appreciate that this region is vastly different to the rest of Spain. There are no two extremes more polar opposite in this country than the Basque Country and the Canary Islands, not only with regards to distance but also in terms of culture and history. In my opinion, Spain is probably the country where more \u2018universes\u2019 coexist than anywhere else in the world.</p>\n",
-                        "list_linkedin": "https://www.linkedin.com/in/soniapajaro/",
+                        "list_linkedin": "",
                         "list_above": "https://abdulrafay789.github.io/spaiin-collection/img/upload/01-381.jpg",
                         "list_above_class": "left",
                         "list_gallery": [{
@@ -925,7 +925,7 @@
                         "list_position": "CTO - Spain and Portugal",
                         "list_intro": "<p><b>I come from a little fishing town in the Basque Country, the northern part of Spain, where I happily grew in a very familiar environment. I studied Computer Science Engineering and a Master on Online Marketing, which took me to start my profesional career in different marketing agencies. However in my early twenties I did my first overseas trip to Latin America and the travel bug bit me so bad I had to make a major switch in my life: I changed the office for the road and since then I became a passionate traveler.</b></p>\n",
                         "list_text": "<p>I worked as a tour leader in Central America and Mexico for five years where I led close to a thousand worldwide travelers. Throughout that remarkable time I had the chance to experience and master such a diverse and ancestral culture, explore the most remote places of the Mayan civilization, learn to cook in a shared kitchen with local families, understand the power of the community feeling, the environment and the respect for sustainability&#8230; I\u2019m very proud to say that I love my job and I feel grateful to be able to share my passion and experience of traveling with everyone.</p>\n<p>&nbsp;</p>\n<p>This enriching journey has already become a lifestyle that has taken me back to my roots in Spain, where I have found my little piece of paradise and I\u2019m determined with the unstoppable desire of sharing my love for this unique and fascinating country and everything it has to offer.</p>\n",
-                        "list_linkedin": "https://www.linkedin.com/in/jon-berrocal/",
+                        "list_linkedin": "",
                         "list_above": "https://abdulrafay789.github.io/spaiin-collection/img/upload/paella-scaled-e1610967226373.jpg",
                         "list_above_class": "left",
                         "list_gallery": [{
