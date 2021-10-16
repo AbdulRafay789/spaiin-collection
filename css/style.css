@@ -4667,6 +4667,16 @@ body.video .header__menu .list li a {
     background-size: cover
 }
 
+.mobile #content .collectionsFeatured .destinations__inner__item a .image::before {
+    content: "";
+    display: block
+}
+
+.mobile #content .collectionsFeatured .destinations__inner__item a .image:before {
+    content: "";
+    display: block
+}
+
 .mobile #content .collectionsFeatured .destinations__inner__item a .title {
     margin-top: 8vw;
     text-align: center;
