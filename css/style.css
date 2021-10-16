@@ -256,6 +256,11 @@ figure {
     display: block
 }
 
+.image::before {
+    content: "";
+    display: block
+}
+
 .footer__contact {
     position: relative;
     margin: 4vw auto 0;
