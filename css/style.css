@@ -3437,7 +3437,7 @@ body.video .header__menu .list li a {
 @media only screen and (max-width:1200px) and (min-width:320px) {
     .desktop #content .home__curators .container .featured .video {
         position: relative;
-        width: 100vw;
+        width: 100vw !important;
         height: 30vw
     }
 }
