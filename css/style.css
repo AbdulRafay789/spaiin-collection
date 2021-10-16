@@ -3434,7 +3434,7 @@ body.video .header__menu .list li a {
     bottom: -15vw
 }
 
-@media only screen and (max-width:12000px) and (min-width:320px) {
+@media only screen and (max-width:1200px) and (min-width:320px) {
     .desktop #content .home__curators .container .featured .video {
         position: relative;
         width: 100vw;
@@ -3540,7 +3540,7 @@ body.video .header__menu .list li a {
     padding-bottom: 15vw
 }
 
-@media only screen and (max-width:12000px) and (min-width:320px) {
+@media only screen and (max-width:1200px) and (min-width:320px) {
     .desktop #content .home__why .features {
         display: grid;
     }
@@ -4520,7 +4520,7 @@ body.video .header__menu .list li a {
 
 @media only screen and (max-width:1200px) and (min-width:320px) {
     .desktop #content .collectionsFeatured .destinations__inner {
-        pointer-events: none
+        pointer-events: all
     }
 }
 
