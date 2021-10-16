@@ -251,16 +251,6 @@ figure {
     display: block
 }
 
-.image::before {
-    content: "";
-    display: block
-}
-
-.image::before {
-    content: "";
-    display: block
-}
-
 .footer__contact {
     position: relative;
     margin: 4vw auto 0;
@@ -4658,7 +4648,9 @@ body.video .header__menu .list li a {
 .mobile #content .collectionsFeatured .destinations__inner__item a .image {
     position: relative;
     width: 75vw;
-    height: 100vw
+    height: 100vw;
+    display: block;
+    opacity: 1;
 }
 
 .mobile #content .collectionsFeatured .destinations__inner__item a .image .image__bg {
@@ -4670,16 +4662,6 @@ body.video .header__menu .list li a {
     right: 0;
     bottom: 0;
     background-size: cover
-}
-
-.mobile #content .collectionsFeatured .destinations__inner__item a .image::before {
-    content: "";
-    display: block
-}
-
-.mobile #content .collectionsFeatured .destinations__inner__item a .image:before {
-    content: "";
-    display: block
 }
 
 .mobile #content .collectionsFeatured .destinations__inner__item a .title {
