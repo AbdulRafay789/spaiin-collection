@@ -6986,6 +6986,12 @@ body.video .header__menu .list li a {
     height: 35vw
 }
 
+@media only screen and (max-width:1200px) and (min-width:320px) {
+    .desktop #content .curators__hero .features .item--0 .image {
+        height: 70vw
+    }
+}
+
 .desktop #content .curators__hero .features .item--0 .text {
     width: 20vw
 }
@@ -7011,6 +7017,12 @@ body.video .header__menu .list li a {
     height: 40vw
 }
 
+@media only screen and (max-width:1200px) and (min-width:320px) {
+    .desktop #content .curators__hero .features .item--1 .image {
+        height: 80vw
+    }
+}
+
 .desktop #content .curators__hero .features .item--1 .text {
     width: 15vw
 }
@@ -7033,6 +7045,12 @@ body.video .header__menu .list li a {
 
 .desktop #content .curators__hero .features .item--2 .image {
     height: 25vw
+}
+
+@media only screen and (max-width:1200px) and (min-width:320px) {
+    .desktop #content .curators__hero .features .item--2 .image {
+        height: 50vw
+    }
 }
 
 .desktop #content .curators__hero .features .item--2 .text {
