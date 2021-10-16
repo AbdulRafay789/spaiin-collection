@@ -6932,6 +6932,12 @@ body.video .header__menu .list li a {
     justify-content: space-between
 }
 
+@media only screen and (max-width:1200px) and (min-width:320px) {
+    .desktop #content .curators__hero .features {
+        display: grid;
+    }
+}
+
 .desktop #content .curators__hero .features__item {
     overflow: hidden
 }
@@ -6970,6 +6976,12 @@ body.video .header__menu .list li a {
     width: 25vw
 }
 
+@media only screen and (max-width:1200px) and (min-width:320px) {
+    .desktop #content .curators__hero .features .item--0 {
+        width: 80vw
+    }
+}
+
 .desktop #content .curators__hero .features .item--0 .image {
     height: 35vw
 }
@@ -6978,9 +6990,21 @@ body.video .header__menu .list li a {
     width: 20vw
 }
 
+@media only screen and (max-width:1200px) and (min-width:320px) {
+    .desktop #content .curators__hero .features .item--0 .text {
+        width: 80vw
+    }
+}
+
 .desktop #content .curators__hero .features .item--1 {
     width: 20vw;
     margin-top: 5vw
+}
+
+@media only screen and (max-width:1200px) and (min-width:320px) {
+    .desktop #content .curators__hero .features .item--1 {
+        width: 80vw;
+    }
 }
 
 .desktop #content .curators__hero .features .item--1 .image {
@@ -6991,8 +7015,20 @@ body.video .header__menu .list li a {
     width: 15vw
 }
 
+@media only screen and (max-width:1200px) and (min-width:320px) {
+    .desktop #content .curators__hero .features .item--1 .text {
+        width: 80vw
+    }
+}
+
 .desktop #content .curators__hero .features .item--2 {
     width: 25vw
+}
+
+@media only screen and (max-width:1200px) and (min-width:320px) {
+    .desktop #content .curators__hero .features .item--2 {
+        width: 80vw
+    }
 }
 
 .desktop #content .curators__hero .features .item--2 .image {
@@ -7001,6 +7037,12 @@ body.video .header__menu .list li a {
 
 .desktop #content .curators__hero .features .item--2 .text {
     width: 20vw
+}
+
+@media only screen and (max-width:1200px) and (min-width:320px) {
+    .desktop #content .curators__hero .features .item--2 .text {
+        width: 80vw
+    }
 }
 
 .desktop #content .curators__team .title--xlarge {
