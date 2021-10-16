@@ -4374,6 +4374,12 @@ body.video .header__menu .list li a {
     text-align: center
 }
 
+@media (max-width:1000px) and (orientation:portrait) {
+    .desktop #content .collectionsFeatured {
+        color: #000;
+    }
+}
+
 .desktop #content .collectionsFeatured__hero {
     position: relative;
     width: 100%;
